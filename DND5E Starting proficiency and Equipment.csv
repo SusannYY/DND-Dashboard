@@ -1,0 +1,310 @@
+,starting class,proficiency,starting equipment
+0,wizard,"Armor:
+
+-------------
+Weapon:
+{@item dagger|phb|daggers}, {@item dart|phb|darts}, {@item sling|phb|slings}, {@item quarterstaff|phb|quarterstaffs}, {@item light crossbow|phb|light crossbows}
+-------------
+Skills (choose 2):
+arcana, history, insight, investigation, medicine, religion
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 4d4 × 10|4d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['quarterstaff|phb'], 'b': ['dagger|phb']}Choose from below:
+{'a': ['component pouch|phb'], 'b': ['arcane focus|phb']}Choose from below:
+{'a': [""scholar's pack|phb""], 'b': [""explorer's pack|phb""]}['spellbook|phb']
+-------------
+"
+1,barbarian,"Armor:
+light, medium, {@item shield|phb|shields}
+-------------
+Weapon:
+simple, martial
+-------------
+Skills (choose 2):
+animal handling, athletics, intimidation, nature, perception, survival
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 2d4 × 10|2d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['greataxe|phb'], 'b': [{'equipmentType': 'weaponMartialMelee'}]}Choose from below:
+{'a': [{'item': 'handaxe|phb', 'quantity': 2}], 'b': [{'equipmentType': 'weaponSimple'}]}[""explorer's pack|phb"", {'item': 'javelin|phb', 'quantity': 4}]
+-------------
+"
+2,cleric,"Armor:
+light, medium, {@item shield|phb|shields}
+-------------
+Weapon:
+simple
+-------------
+Skills (choose 2):
+history, insight, medicine, persuasion, religion
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['mace|phb'], 'b': ['warhammer|phb']}Choose from below:
+{'a': ['scale mail|phb'], 'b': ['leather armor|phb'], 'c': ['chain mail|phb']}Choose from below:
+{'a': ['light crossbow|phb', 'Crossbow Bolts (20)|phb'], 'b': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': [""priest's pack|phb""], 'b': [""explorer's pack|phb""]}['shield|phb', 'holy symbol|phb']
+-------------
+"
+3,sorcerer,"Armor:
+
+-------------
+Weapon:
+{@item dagger|phb|daggers}, {@item dart|phb|darts}, {@item sling|phb|slings}, {@item quarterstaff|phb|quarterstaffs}, {@item light crossbow|phb|light crossbows}
+-------------
+Skills (choose 2):
+arcana, deception, insight, intimidation, persuasion, religion
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 3d4 × 10|3d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['light crossbow|phb', 'crossbow bolts (20)|phb'], 'b': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': ['component pouch|phb'], 'b': ['arcane focus|phb']}Choose from below:
+{'a': [""dungeoneer's pack|phb""], 'b': [""explorer's pack|phb""]}[{'item': 'dagger|phb', 'quantity': 2}]
+-------------
+"
+4,warlock,"Armor:
+light
+-------------
+Weapon:
+simple
+-------------
+Skills (choose 2):
+arcana, deception, history, intimidation, investigation, nature, religion
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 4d4 × 10|4d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['light crossbow|phb', 'crossbow bolts (20)|phb'], 'b': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': ['component pouch|phb'], 'b': ['arcane focus|phb']}Choose from below:
+{'a': [""scholar's pack|phb""], 'b': [""dungeoneer's pack|phb""]}['Leather armor|phb', {'equipmentType': 'weaponSimple'}, {'item': 'dagger|phb', 'quantity': 2}]
+-------------
+"
+5,monk,"Armor:
+
+-------------
+Weapon:
+simple, {@item shortsword|phb|shortswords}
+-------------
+Skills (choose 2):
+acrobatics, athletics, history, insight, religion, stealth
+-------------
+Tools:
+any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4|5d4|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['shortsword|phb'], 'b': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': [""dungeoneer's pack|phb""], 'b': [""explorer's pack|phb""]}[{'item': 'dart|phb', 'quantity': 10}]
+-------------
+"
+6,rogue,"Armor:
+light
+-------------
+Weapon:
+simple, {@item hand crossbow|phb|hand crossbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}
+-------------
+Skills (choose 4):
+acrobatics, athletics, deception, insight, intimidation, investigation, perception, performance, persuasion, sleight of hand, stealth
+-------------
+Tools:
+{@item thieves' tools|PHB}
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 4d4 × 10|4d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['rapier|phb'], 'b': ['shortsword|phb']}Choose from below:
+{'a': ['shortbow|phb', 'arrows (20)|phb'], 'b': ['shortsword|phb']}Choose from below:
+{'a': [""burglar's pack|phb""], 'b': [""dungeoneer's pack|phb""], 'c': [""explorer's pack|phb""]}['Leather armor|phb', {'item': 'dagger|phb', 'quantity': 2}, ""thieves' tools|phb""]
+-------------
+"
+7,bard,"Armor:
+light
+-------------
+Weapon:
+simple, {@item hand crossbow|phb|hand crossbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}
+-------------
+Skills: any 3
+-------------
+Tools:
+three {@item musical instrument|PHB|musical instruments} of your choice
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['rapier|phb'], 'b': ['longsword|phb'], 'c': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': [""diplomat's pack|phb""], 'b': [""entertainer's pack|phb""]}Choose from below:
+{'a': ['lute|phb'], 'b': [{'equipmentType': 'instrumentMusical'}]}['Leather armor|phb', 'dagger|phb']
+-------------
+"
+8,artificer,"Armor:
+light, medium, {@item shield|phb|shields}
+-------------
+Weapon:
+simple, {'proficiency': 'firearms', 'optional': True}
+-------------
+Skills (choose 2):
+arcana, history, investigation, medicine, nature, perception, sleight of hand
+-------------
+Tools:
+{@item thieves' tools|PHB}, {@item tinker's tools|PHB}, one type of {@item artisan's tools|PHB} of your choice
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+[{'equipmentType': 'weaponSimple', 'quantity': 2}]
+['light crossbow|phb', 'crossbow bolts (20)|phb']
+Choose from below:
+{'a': ['studded leather armor|phb'], 'b': ['scale mail|phb']}[""thieves' tools|phb"", ""dungeoneer's pack|phb""]
+-------------
+"
+9,ranger,"Armor:
+light, medium, {@item shield|phb|shields}
+-------------
+Weapon:
+simple, martial
+-------------
+Skills (choose 3):
+animal handling, athletics, insight, investigation, nature, perception, stealth, survival
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['scale mail|phb'], 'b': ['leather armor|phb']}Choose from below:
+{'a': [{'item': 'shortsword|phb', 'quantity': 2}], 'b': [{'equipmentType': 'weaponSimpleMelee', 'quantity': 2}]}Choose from below:
+{'a': [""dungeoneer's pack|phb""], 'b': [""explorer's pack|phb""]}['longbow|phb', 'arrows (20)|phb']
+-------------
+"
+10,paladin,"Armor:
+light, medium, heavy, {@item shield|phb|shields}
+-------------
+Weapon:
+simple, martial
+-------------
+Skills (choose 2):
+athletics, insight, intimidation, medicine, persuasion, religion
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': [{'equipmentType': 'weaponMartial'}, 'shield|phb'], 'b': [{'equipmentType': 'weaponMartial', 'quantity': 2}]}Choose from below:
+{'a': [{'item': 'javelin|phb', 'quantity': 5}], 'b': [{'equipmentType': 'weaponSimpleMelee'}]}Choose from below:
+{'a': [""priest's pack|phb""], 'b': [""explorer's pack|phb""]}['Chain mail|phb', 'holy symbol|phb']
+-------------
+"
+11,druid,"Armor:
+light, medium, {'proficiency': '{@item shield|phb|shields}', 'full': 'shields (druids will not wear armor or use shields made of metal)'}
+-------------
+Weapon:
+{@item club|phb|clubs}, {@item dagger|phb|daggers}, {@item dart|phb|darts}, {@item javelin|phb|javelins}, {@item mace|phb|maces}, {@item quarterstaff|phb|quarterstaffs}, {@item scimitar|phb|scimitars}, {@item sickle|phb|sickles}, {@item sling|phb|slings}, {@item spear|phb|spears}
+-------------
+Skills (choose 2):
+arcana, animal handling, insight, medicine, nature, perception, religion, survival
+-------------
+Tools:
+{@item Herbalism kit|PHB}
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 2d4 × 10|2d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['shield|phb'], 'b': [{'equipmentType': 'weaponSimple'}]}Choose from below:
+{'a': ['scimitar|phb'], 'b': [{'equipmentType': 'weaponSimpleMelee'}]}['Leather armor|phb', ""explorer's pack|phb"", 'druidic focus|phb']
+-------------
+"
+12,fighter,"Armor:
+light, medium, heavy, {@item shield|phb|shields}
+-------------
+Weapon:
+simple, martial
+-------------
+Skills (choose 2):
+acrobatics, animal handling, athletics, history, insight, intimidation, perception, survival
+-------------
+Tools:
+
+-------------
+","Choose between Gold and Equipment:
+-------------
+Gold:
+{@dice 5d4 × 10|5d4 × 10|Starting Gold}
+-------------
+Equipment:
+Choose from below:
+{'a': ['chain mail|phb'], 'b': ['leather armor|phb', 'longbow|phb', 'arrows (20)|phb']}Choose from below:
+{'a': [{'equipmentType': 'weaponMartial'}, 'shield|phb'], 'b': [{'equipmentType': 'weaponMartial', 'quantity': 2}]}Choose from below:
+{'a': ['light crossbow|phb', 'crossbow bolts (20)|phb'], 'b': [{'item': 'handaxe|phb', 'quantity': 2}]}Choose from below:
+{'a': [""dungeoneer's pack|phb""], 'b': [""explorer's pack|phb""]}-------------
+"
